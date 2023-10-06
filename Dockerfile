@@ -4,5 +4,6 @@ ADD . /app
 WORKDIR /app
 RUN bundle install
 
-CMD ["/bin/bash"]
+EXPOSE 3000
 
+CMD ["/bin/bash"]
